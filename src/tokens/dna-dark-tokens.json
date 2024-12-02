@@ -92,15 +92,15 @@
       "background": {
         "primary": {
           "$type": "color",
-          "$value": "{brand.background}"
+          "$value": "{brand.color.dark-primary}"
         },
         "accent": {
           "$type": "color",
-          "$value": "{brand.color.dark-primary}"
+          "$value": "{brand.color.white}"
         },
         "highlighted": {
           "$type": "color",
-          "$value": "{brand.color.white}"
+          "$value": "{brand.color.black}"
         }
       },
       "primary": {
@@ -114,21 +114,21 @@
       "icon": {
         "primary": {
           "$type": "color",
-          "$value": "{brand.color.black}"
+          "$value": "{brand.color.white}"
         },
         "primary-on-surface": {
           "$type": "color",
-          "$value": "{brand.color.white}"
+          "$value": "{brand.color.black}"
         }
       },
       "text": {
         "primary": {
           "$type": "color",
-          "$value": "{brand.color.black}"
+          "$value": "{brand.color.white}"
         },
         "primary-on-surface": {
           "$type": "color",
-          "$value": "{brand.color.white}"
+          "$value": "{brand.color.black}"
         }
       },
       "border": {
@@ -186,66 +186,6 @@
           "$type": "dimension",
           "$value": "{brand.typography.font-weight.regular}"
         }
-      },
-      "display": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{sem.typography.font-family}",
-          "fontSize": "{sem.typography.font-size.display}",
-          "fontWeight": 600,
-          "letterSpacing": "0%",
-          "lineHeight": "normal",
-          "textTransform": "none",
-          "textDecoration": "none"
-        }
-      },
-      "header": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{sem.typography.font-family}",
-          "fontSize": "{sem.typography.font-size.header}",
-          "fontWeight": 600,
-          "letterSpacing": "0%",
-          "lineHeight": "normal",
-          "textTransform": "none",
-          "textDecoration": "none"
-        }
-      },
-      "sub-header": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{sem.typography.font-family}",
-          "fontSize": "{sem.typography.font-size.sub-header}",
-          "fontWeight": 400,
-          "letterSpacing": "0%",
-          "lineHeight": "normal",
-          "textTransform": "none",
-          "textDecoration": "none"
-        }
-      },
-      "body": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{sem.typography.font-family}",
-          "fontSize": "{sem.typography.font-size.body}",
-          "fontWeight": 400,
-          "letterSpacing": "0%",
-          "lineHeight": "normal",
-          "textTransform": "none",
-          "textDecoration": "none"
-        }
-      },
-      "caption": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{sem.typography.font-family}",
-          "fontSize": "{sem.typography.font-size.caption}",
-          "fontWeight": 400,
-          "letterSpacing": "0%",
-          "lineHeight": "normal",
-          "textTransform": "none",
-          "textDecoration": "none"
-        }
       }
     },
     "radius": {
@@ -261,27 +201,27 @@
     "space": {
       "tight": {
         "$type": "dimension",
-        "$value": "{brand.dimension.small}"
+        "$value": "4px"
       },
       "normal": {
         "$type": "dimension",
-        "$value": "{brand.dimension.medium}"
+        "$value": "8px"
       },
       "loose": {
         "$type": "dimension",
-        "$value": "{brand.dimension.large}"
+        "$value": "16px"
       },
       "very-loose": {
         "$type": "dimension",
-        "$value": "{brand.dimension.x-large}"
+        "$value": "24px"
       },
       "section": {
         "$type": "dimension",
-        "$value": "72px"
+        "$value": "50px"
       },
       "page-margin": {
         "$type": "dimension",
-        "$value": "120px"
+        "$value": "60px"
       }
     }
   }

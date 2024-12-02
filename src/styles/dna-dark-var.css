@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root.dna {
+:root.dna-dark {
   --brand-background: #f3f3f2;
   --brand-border: #e0e0df;
   --brand-dimension-small: 8px;
@@ -22,15 +22,15 @@
   --brand-color-dark-primary: #1b0505;
   --brand-color-black: #000000;
   --brand-color-white: #ffffff;
-  --sem-color-background-primary: #f3f3f2;
-  --sem-color-background-accent: #1b0505;
-  --sem-color-background-highlighted: #ffffff;
+  --sem-color-background-primary: #1b0505;
+  --sem-color-background-accent: #ffffff;
+  --sem-color-background-highlighted: #000000;
   --sem-color-primary: #e5318d;
   --sem-color-secondary: #b92973;
-  --sem-color-icon-primary: #000000;
-  --sem-color-icon-primary-on-surface: #ffffff;
-  --sem-color-text-primary: #000000;
-  --sem-color-text-primary-on-surface: #ffffff;
+  --sem-color-icon-primary: #ffffff;
+  --sem-color-icon-primary-on-surface: #000000;
+  --sem-color-text-primary: #ffffff;
+  --sem-color-text-primary-on-surface: #000000;
   --sem-color-border-primary: #e0e0df;
   --sem-typography-font-family: Space Grotesk;
   --sem-typography-font-size-display: 44px;
@@ -43,17 +43,12 @@
   --sem-typography-font-weight-sub-header: 400rem;
   --sem-typography-font-weight-body: 400rem;
   --sem-typography-font-weight-caption: 400rem;
-  --sem-typography-display: 600 44px/normal 'Space Grotesk';
-  --sem-typography-header: 600 34px/normal 'Space Grotesk';
-  --sem-typography-sub-header: 400 19px/normal 'Space Grotesk';
-  --sem-typography-body: 400 16px/normal 'Space Grotesk';
-  --sem-typography-caption: 400 14px/normal 'Space Grotesk';
   --sem-radius-full: 999px;
   --sem-radius-base: 8px;
-  --sem-space-tight: 8px;
-  --sem-space-normal: 16px;
-  --sem-space-loose: 24px;
-  --sem-space-very-loose: 48px;
-  --sem-space-section: 72px;
-  --sem-space-page-margin: 120px;
+  --sem-space-tight: 4px;
+  --sem-space-normal: 8px;
+  --sem-space-loose: 16px;
+  --sem-space-very-loose: 24px;
+  --sem-space-section: 50px;
+  --sem-space-page-margin: 60px;
 }

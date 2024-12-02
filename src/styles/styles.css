@@ -11,7 +11,6 @@ header {
   position: relative;
   background: var(--sem-color-background-primary, #f3f3f2);
   display: flex;
-  padding-bottom: var(--sem-space-section, 72px);
   flex-direction: column;
   gap: var(--sem-space-section, 72px);
 }
@@ -277,4 +276,45 @@ header {
   .load-more-btn {
     padding: 16px 20px;
   }
+}
+
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+
+.footer {
+  background: var(--sem-color-background-accent, #1b0505);
+  padding: var(--sem-space-loose, 24px) var(--sem-space-page-margin, 120px)
+    var(--sem-space-loose, 24px) var(--sem-space-page-margin, 120px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.copyright-2024-design-dna-all-rights-reserved {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --sem-typography-body-font-family,
+    "SpaceGrotesk-Regular",
+    sans-serif
+  );
+  font-size: var(--sem-typography-body-font-size, 16px);
+  font-weight: var(--sem-typography-body-font-weight, 400);
+  position: relative;
+}
+
+.figma-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  stroke: var(--sem-color-icon-primary-on-surface, #ffffff);
 }
